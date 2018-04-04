@@ -1,0 +1,9 @@
+/*samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 667px) {
+/*styles*/
+}
+
+/*samsung s5/iphone landscape (667px or less)*/
+@media only screen and (max-width: 375px){
+/*styles*/
+}
