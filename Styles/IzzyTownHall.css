@@ -1,0 +1,102 @@
+/* the styles for the elements */
+html {
+	background-image: solid white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 800px;
+	background-color: #fffded;
+	margin: 0px auto;
+	padding: 15px 1.5 em;
+	border: 3px solid #931420;
+	border-radius: 0px;
+}
+
+section{
+width: 525px;
+float: right;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+aside{
+width: 215px;
+font-size: 105%;
+padding-bottom: 0.25em;
+padding-left: 20px;
+}
+/*float: right; doesn't work, not sure why/* 
+
+
+/* the styles for the header */
+
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	}
+	
+header img {
+	float: left;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+	margin: 5px; /*all four sides*/
+	/*padding-right: 40px;
+	padding-left: 40px;*/
+}
+
+
+
+h1 {
+	/*border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;*/
+	font-size: 150%;
+	color:800000;
+	/*padding-left: 30px;*/
+
+}
+
+header h2 { 
+	font-size: 170%;
+	color: #800000;
+	padding-left: 30px;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+.shadow {
+	text-shadow: 1px 1px 2px red;
+}
+
+a:hover, a:focus {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+
+footer {
+	border-top: 2px solid #931420;
+	text-align: center;
+}
+
+article {
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+}
+
+	
+	
